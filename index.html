@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEBGIS KOTA KARAWANG</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+<!-- Tambahkan ini di dalam <head> untuk load FontAwesome -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+<!--Link leaflet CSS-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-
+button.css">
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-
+fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+<link rel="stylesheet" href="https://balladaniel.github.io/leaflet-dataclassification/leaflet-
+dataclassification.css" />
+
+<!--Link leaflet javascript-->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-
+20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-
+fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"
+charset="utf-8"></script>
+<script src="https://balladaniel.github.io/leaflet-dataclassification/leaflet-
+dataclassification.js"></script>
+
+<!--Link leaflet jquery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- MarkerCluster CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+
+</head>
+
+<body>
+  <!-- Top Contact Bar -->
+  <div class="top-bar" style="display:flex; justify-content:space-between; align-items:center; padding:8px 16px; background: #44619A;; font-family: Arial, sans-serif;">
+    <div class="contact-info" style="display:flex; gap:20px; font-size:14px; align-items:center;">
+      <span><i class="fa-solid fa-envelope"></i> info@karawangkab.go.id</span>
+      <span><i class="fa-brands fa-whatsapp"></i> +6281219939453</span>
+    </div>
+    <div class="lang-search" style="display:flex; align-items:center; gap:10px;">
+      <div id="google_translate_element"></div>
+      
+ <!-- Tambahkan menu navigasi di sini -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero-section">Home</a></li>
+      <li><a href="#deskripsi-karawang">History</a></li>
+      <li><a href="#related-post">News</a></li>
+      <li><a href="#map-section">Map</a></li>
+      <li><a href="#about-section">About Author</a></li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+ <header class="logo-header">
+  <img src="asset/logo krw.png" alt="KIIC Logo" />
+  <h1>WebGIS Kota Karawang</h1>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero-section">
+  <div class="overlay">
+    <div class="welcome-banner">Selamat Datang di Kota Industri Karawang! </div>
+    <h1>Kota Karawang Kota Industri Terbesar di Indonesia</h1>
+    <p>Karawang pusat industri terbesar di Indonesia, menjadi rumah bagi kawasan industri luas dan perusahaan multinasional terkemuka</p>
+    <div class="slider-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <!-- Tambahkan slideshow di sini -->
+ <div class="slideshow-container">
+  <div class="slide"><img src="asset/Kawasan Industri Mitra Karawang.jpg" alt="Gambar 1"></div>
+  <div class="slide"><img src="asset/img-about.jpg" alt="Gambar 2"></div>
+  <div class="slide"><img src="asset/pabrik.jpg" alt="Gambar 3"></div>
+  <div class="slide"><img src="asset/Kawasan Industri Mitra Karawang.jpg" alt="Gambar 4"></div>
+</div>
+</section>
+
+<section class="deskripsi-karawang" id="deskripsi-karawang">
+  <p>
+    Karawang merupakan salah satu kota di Jawa Barat, Indonesia. Kota yang sebelumnya masih menjadi kabupaten ini merupakan kota yang berbatasan langsung dengan Bekasi, Bogor, dan tidak jauh dari Jakarta. Kota Karawang termasuk kota yang besar yakni dengan luas sekitar 1.737,30 km².
+  </p>
+
+  <p>
+    Selama ini Kabupaten Karawang dikenal sebagai kota industri. Namun tahukah Anda, berapa sebenarnya jumlah kawasan dan pabrik yang tersebar di daerah industri Karawang tersebut? Dari data yang dihimpun Fakta Jabar dari Disnakertrans Karawang, hingga tahun 2018 terdapat 13.756,358 hektar luas lahan yang diplot sebagai lahan industri.
+  </p>
+
+  <p>
+    Kawasan industri Karawang tersebut tersebar antara lain Kawasan Industri Kujang, Indotaisei, Mandala Putra, KIIC, Suryacipta, dan KIM. Adapun zona industri Karawang yang dicantumkan dalam penataan ruang, yakni dititikberatkan pada sejumlah kecamatan meliputi Kecamatan Telukjambe Timur, Cikampek, Klari, Purwasari, Pangkalan, dan Rengasdengklok.
+  </p>
+
+  <p>
+    Lalu bagaimana dengan jumlah perusahaan atau pabrik di Kabupaten Karawang? Masih berdasarkan data yang dihimpun dari Disnakertrans Karawang, dijelaskan bahwa hingga 2018, jumlah pabrik yang beroperasi di kabupaten ini sebanyak 1.762 pabrik. Rinciannya, pabrik swasta sebanyak 787, PMDN sebanyak 269, PMA sebanyak 638, dan <em>Joint venture</em> tercatat sebanyak 58 pabrik.
+  </p>
+</section>
+  
+<!-- data section -->
+<div class="related-post">Kawasan Industri</div>
+<div class="section-underline"></div>
+<section class="news-section" id="related-post">
+  <div class="news-card">
+    <a href="https://www.kawasanindustri.net/daftar-perusahaan-pabrik-di-kawasan-industri-indotaisei-cikampek.html" target="_blank">
+      <div class="image-container">
+        <img src="asset/indotaisei.jpg" alt="Berita 1" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Industri Indotaisei Karawang</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="news-card">
+    <a href="https://kemenperin.go.id/kawasan" target="_blank">
+      <div class="image-container">
+        <img src="asset/kujang.jpg" alt="Berita 2" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Industri Kujang Cikampek</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+  <div class="news-card">
+    <a href="https://portalkawasanindustri.com/daftar-perusahaan-di-kawasan-industri-mitra-karawang" target="_blank">
+      <div class="image-container">
+        <img src="asset/mitra.jpg" alt="Berita 2" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Industri Mitra Karawang</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+  <div class="news-card">
+    <a href="https://www.daftar.co/perusahaan-di-kawasan-kiic-karawang/" target="_blank">
+      <div class="image-container">
+        <img src="asset/KIIC.jpg" alt="Berita 2" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Karawang International Industrial City</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+  <div class="news-card">
+    <a href="https://asiatimurassets.com/investment/karawang-new-industrial-city-knic/" target="_blank">
+      <div class="image-container">
+        <img src="asset/knic-photo-4.jpg" alt="Berita 2" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Karawang New Industry City</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+  <div class="news-card">
+    <a href="https://suryacipta.com/en/karawang/" target="_blank">
+      <div class="image-container">
+        <img src="asset/surya.jpg" alt="Berita 2" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Suryacipta City Of Industry</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+  <div class="news-card">
+    <a href="https://www.lippocikarang.co.id/project/kawasan-industri-kjie-karawang/" target="_blank">
+      <div class="image-container">
+        <img src="asset/img-about.jpg" alt="Berita 2" />
+      </div>
+      <div class="content-box">
+        <p class="news-title">Kawasan Karawang Jabar Industrial Estate</p>
+        <span class="news-source">knic.co.id</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<div class="carousel-container"></div>
+<section class="infrastruktur-section">
+  <div class="infrastruktur-header">
+   <div class="related-post">Infrastruktur</div>
+   <div class="section-underline"></div>
+    <p>
+      Kawasan industri Karawang memiliki infrastruktur yang modern dan terintegrasi, dirancang khusus untuk mendukung kegiatan produksi dan distribusi secara efisien.
+    </p>
+  </div>
+
+  <div class="infrastruktur-slider">
+    <div class="infrastruktur-slide active">
+      <img src="asset/tol.jpg" alt="Listrik">
+      <div class="text-content">
+        <h3>JALAN TOL</h3>
+        <p>
+          Jalan tol di kawasan industri Karawang memainkan peran penting dalam mendukung aktivitas logistik dan mobilitas pekerja, khususnya melalui Gerbang Tol Karawang Barat (KM 47) dan Karawang Timur (KM 54).
+        </p>
+      </div>
+    </div>
+    
+    <div class="infrastruktur-slide">
+      <img src="asset/jalur kereta.jpeg" alt="Ruas Jalan">
+      <div class="text-content">
+        <h3>JALUR KERETA</h3>
+        <p>
+          Jalur kereta api di kawasan industri Karawang mendukung mobilitas dan distribusi logistik. Kehadiran Stasiun Kereta Cepat Whoosh dan Stasiun Logistik Klari menjadikan Karawang terhubung langsung dengan kota-kota besar.
+        </p>
+      </div>
+    </div>
+
+        <div class="infrastruktur-slide">
+      <img src="asset/fasduk.jpg" alt="Ruas Jalan">
+      <div class="text-content">
+        <h3>FASILITAS PENDUKUNG</h3>
+        <p>
+          Karawang memiliki pusat logistik yang memudahkan distribusi barang, pusat perdagangan untuk kebutuhan industri, serta fasilitas pendidikan yang mencetak tenaga kerja terampil.
+        </p>
+      </div>
+    </div>
+
+        <div class="infrastruktur-slide">
+      <img src="asset/utlitas.jpg" alt="Ruas Jalan">
+      <div class="text-content">
+        <h3>UTILITAS DASAR</h3>
+        <p>
+          Kawasan industri di Karawang didukung oleh pasokan listrik yang stabil, air bersih yang memadai, serta gas alam sebagai sumber energi industri. Infrastruktur telekomunikasi dan internet yang handal juga tersedia untuk mendukung operasional dan konektivitas bisnis.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="dot-container">
+    <span class="dot active" data-slide="0"></span>
+    <span class="dot" data-slide="1"></span>
+    <span class="dot" data-slide="2"></span>
+    <span class="dot" data-slide="3"></span>
+  </div>
+  </section>
+
+  <body>
+    <div class="related-post">Peta Sebaran</div>
+    <div class="section-underline"></div>
+    <section class="map-section" id="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+
+<section class="about-section" id="about-section">
+    <div class="profile-img">
+      <img src="asset/salma.jpeg" alt="Foto Pembuat">
+    </div>
+    <div class="about-text">
+      <h2>Tentang Pembuat</h2>
+      <p>
+        WebGIS Kota Karawang dikembangkan oleh <strong>Salma Hamidah Al Wafaa</strong>, mahasiswa Sains Informasi Geografi yang memiliki minat mendalam dalam bidang Geospasial dan Perencanaan Wilayah. WebGIS ini dibuat sebagai media digital interaktif yang menyajikan informasi mengenai sebaran kawasan industri di Kabupaten Karawang. Melalui pendekatan peta interaktif dan data spasial, platform ini bertujuan untuk memberikan gambaran yang informatif dan mudah diakses oleh masyarakat luas maupun pemangku kepentingan terkait.
+      </p>
+    </div>
+  </section>
+
+<footer class="footer full-width">
+  <div class="footer-container">
+    <h2>Karawang Spatial Industry</h2>
+    <p>
+      WEBGIS Kabupaten Karawang adalah sebuah platform berbasis web yang menyajikan informasi geografis dan data kawasan industri di Kabupaten Karawang, Jawa Barat. Website ini menampilkan informasi lengkap mengenai kawasan industri, jumlah pabrik, infrastruktur pendukung, serta tautan eksternal menuju daftar perusahaan di berbagai kawasan industri seperti KIIC, Indotaisei, dan Kujang. Disertai fitur peta interaktif, galeri gambar, serta informasi kontak, situs ini ditujukan untuk membantu investor, pelaku usaha, dan masyarakat umum mengenal potensi industri Karawang secara menyeluruh.
+    </p>
+
+    <div class="social-icons">
+      <a href=""><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/salmhaw_/"><i class="fab fa-instagram"></i></a>
+      <a href="asset/hehe.jpg"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <div class="footer-columns">
+      <div class="column">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#deskripsi-karawang">History</a></li>
+          <li><a href="#related-post">News</a></li>
+          <li><a href="#map-section">Map</a></li>
+          <li><a href="#about-section">About Author</a></li>
+        </ul>
+      </div>
+
+
+      <div class="column">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="#">Interactive Industrial Map</a></li>
+          <li class="highlight"><a href="#">Industrial Area Information</a></li>
+          <li><a href="#">Infrastructure Data</a></li>
+          <li><a href="#">Locatin Based Analysis</a></li>
+          <li><a href="#">About WEBGIS Kota Karawang</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h3>Contact Us</h3>
+        <address>
+          Salma Hamidah Al Wafaa<br>
+          Karawang, KRW 41311<br>
+          Indonesia<br>
+          Phone: +62 812 1993 9453<br>
+          Email: <a href="mailto:salmawafaa09@gmail.com">salmawafaa09@gmail.com</a>
+        </address>
+      </div>
+    </div>
+
+    <p style="text-align:center; font-size: 14px; margin-top: 20px;">
+      &copy; 2025 WEBGIS Kabupaten Karawang. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+      
+  <script src="js/script.js"></script>
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'id',
+        includedLanguages: 'id,en,ja,zh-CN',
+        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+      },
+      'google_translate_element'
+    );
+  }
+ 
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+ <!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"></script>
+<script src="https://balladaniel.github.io/leaflet-dataclassification/leaflet-dataclassification.js"></script>
+
+<!-- MarkerCluster JS -->
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+</script>
+
+</body>
+</html>

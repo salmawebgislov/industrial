@@ -1,0 +1,1035 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  
+}
+
+.top-bar {
+  background: rgb(251, 135, 135);
+  color: white;
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.contact-info span {
+  margin-right: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.lang-search {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.lang-search select,
+.lang-search input {
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-header {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.logo-header img {
+  max-height: 100px;
+}
+
+.hero {
+  background-image: url('../asset/Kawasan Industri Mitra Karawang.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 1s ease-in-out;
+  z-index: 1; /* batas area hero saja */
+  overflow: hidden; /* penting untuk cegah overlay bocor ke bawah */
+}
+
+.hero .overlay {
+  position: absolute; /* agar menempel ke dalam .hero */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.5); /* transparan gelap */
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+
+.welcome-banner,
+.hero h1,
+.hero p,
+.slider-dots {
+  position: relative;
+  z-index: 3; /* agar muncul di atas overlay */
+}
+.slideshow-container {
+  display: none; /* Sembunyikan elemen gambar aslinya */
+}
+.hero .overlay {
+  position: absolute; /* ubah ke absolute agar nempel full ke .hero */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.5); /* Hitam transparan */
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+.welcome-banner {
+  background: #44619A;
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 10px; 
+  margin-bottom: 1em;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+.hero p {
+  font-size: 1.1em;
+}
+
+.slider-dots {
+  margin-top: 1.5em;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.navbar {
+  background-color: #44619A;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  background-color: #44619A;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar a:hover {
+  background-color: rgb(216, 226, 255);
+}
+
+#google_translate_element select {
+  background-color: white;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+.property-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 5%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F2F7FC;
+  position: relative;
+}
+
+.property-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 45%;
+  padding-right: 20px;
+}
+
+.property-content h3 {
+  color: #44619A;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.property-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.property-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 50%;
+}
+
+.img-box {
+  position: relative;
+  padding: 8px;
+  background: #44619A;
+  border-radius: 12px;
+}
+
+.img-box img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.floating-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.news-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 5%;
+  flex-wrap: wrap;
+}
+
+.news-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swipe-label {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  background: #b30000;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* === Tambahan agar gambar & kotak merah sejajar === */
+
+.news-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 5%;
+  flex-wrap: wrap;
+  align-items: stretch; /* penting untuk menyamakan tinggi kartu */
+}
+
+.news-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: white;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #44619A;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-title {
+  font-weight: bold;
+  color: #44619A;
+  margin-top: 10px;
+  font-size: 16px; /* opsional */
+}
+.related-post {
+  text-align: center;
+  font-size: 36px;
+  color: #294766;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.related-post {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 30px 20px 10px;
+}
+
+.news-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.news-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+}
+
+.news-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.image-container img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.content-box {
+  padding: 15px;
+}
+
+.news-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.news-source {
+  color: gray;
+  font-size: 14px;
+}
+.data-section {
+  display: none;
+  transition: all 0.3s ease;
+  padding: 20px;
+  text-align: center;
+}
+.data-section.active {
+  display: block;
+}
+button.next-btn,
+button.prev-btn {
+  margin: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+}
+button.next-btn:hover,
+button.prev-btn:hover {
+  background-color: #0056b3;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.card-slider {
+  padding: 30px;
+  text-align: center;
+}
+
+.slider-title {
+  font-size: 28px;
+  color: rgb(250, 250, 249);
+  margin-bottom: 20px;
+}
+
+.slider-controls {
+  margin-bottom: 20px;
+}
+
+.slider-controls button {
+  background-color: #44619A;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card {
+  flex: 0 0 auto;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 250px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.deskripsi-karawang {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: justify;
+}
+
+.deskripsi-karawang p {
+  margin-bottom: 1.5rem;
+}
+
+.deskripsi-karawang strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.deskripsi-karawang em {
+  font-style: italic;
+}
+.infrastruktur-section {
+  font-family: 'Poppins', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+.infrastruktur-header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.infrastruktur-header i {
+  color: #B1C9FF;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.infrastruktur-header h2 {
+  display: inline;
+  color: #B1C9FF;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+
+.infrastruktur-header p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  max-width: 800px;
+}
+
+.infrastruktur-slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.infrastruktur-slide {
+  display: none;
+  flex-shrink: 0;
+  width: 100%;
+  background: #f9d5d5;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  align-items: center;
+  gap: 20px;
+  transition: opacity 0.5s;
+  padding: 20px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.infrastruktur-slide.active {
+  opacity: 1;
+  display: flex;
+}
+
+.infrastruktur-slide img {
+  width: 250px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.infrastruktur-slide .text-content {
+  max-width: 800px;
+}
+
+.infrastruktur-slide h3 {
+  color: #294766;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.infrastruktur-slide p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.dot-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.selengkapnya {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-lengkap {
+  background-color: #B1C9FF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-lengkap i {
+  margin-left: 10px;
+}
+
+.btn-lengkap:hover {
+  background-color: darkred;
+}
+
+.dot-slider {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 30%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #555;
+}
+
+.infrastruktur-slide {
+  display: none;
+}
+.infrastruktur-slide.active {
+  display: block;
+}
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000000aa;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+button.prev {
+  left: 05px;
+}
+button.next {
+  right: 05px;
+}
+.infrastruktur-slider {
+  position: relative;
+  max-width: 600px; /* Sesuaikan */
+  margin: auto;
+}
+
+/* Bagian judul Infrastruktur */
+.infrastruktur-section h2 {
+font-size: 24px;
+font-weight: bold;
+color: #294766; 
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+.infrastruktur-section p {
+font-size: 16px;
+color: #444;
+margin-top: 10px;
+}
+
+/* Card slide infrastruktur */
+.infrastruktur-slide {
+display: flex;
+background-color: #efeeee;
+padding: 20px;
+border-radius: 12px;
+gap: 20px;
+transition: opacity 0.5s ease;
+}
+
+.infrastruktur-slide img {
+width: 200px;
+height: 200px;
+border-radius: 6px;
+object-fit: cover;
+}
+
+.infrastruktur-slide h3 {
+color: #294766;
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 8px;
+}
+
+.infrastruktur-slide p {
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+}
+
+/* Hanya tampilkan slide yang aktif */
+.infrastruktur-slide {
+display: none;
+}
+
+.infrastruktur-slide.active {
+display: flex;
+}
+
+/* Dot Navigasi */
+.carousel-dots {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+gap: 8px;
+}
+
+.dot {
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background-color: #ccc;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.dot.active {
+background-color: #44619A;
+}
+
+.container {
+text-align: center;
+max-width: 900px;
+}
+
+.related-post {
+  text-align: center;
+  font-size: 36px;
+  color: #294766;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.related-post {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 30px 20px 10px;
+}
+
+.section-underline {
+  width: 15%;
+  height: 1px;
+  background-color: #ccc;
+  position: relative;
+  margin: 0 auto 40px;
+}
+
+.section-underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1.5px;
+  width: 60px;
+  height: 4px;
+  background-color: #1e88e5;
+  border-radius: 2px;
+}
+
+/* Atur padding pada body atau kontainer utama Anda */
+body {
+  padding-left: 20px; /* Jarak dari kiri layar */
+  padding-right: 20px; /* Jarak dari kanan layar */
+  /* Atau shorthand: padding: 0 20px; */
+}
+
+
+
+/* Container khusus section peta */
+.map-section {
+  margin: 40px auto; /* Margin atas-bawah dan tengah secara horizontal */
+  padding: 10px; /* Memberikan padding di dalam border/shadow */
+   max-width: 1900px; 
+  height: 700px; /* Tinggi peta */
+  position: relative;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0px 20px rgba(90, 10, 1, 2.5); 
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  border-radius: 10px;
+}
+
+.leaflet-marker-icon {
+  pointer-events: auto !important;
+  cursor: pointer;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #0f2b3c;
+}
+
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #7A93D0;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #44619A;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-top: 50px;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+.footer-container {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer-container h2 {
+color: white;
+margin-bottom: 10px;
+}
+
+.footer-container p {
+color: white;
+line-height: 1.6;
+font-size: 14px;
+}
+
+.social-icons {
+margin: 20px 0;
+}
+
+.social-icons a {
+color: #fff;
+margin: 0 10px;
+text-decoration: none;
+font-size: 20px;
+transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+color: #B1C9FF;
+}
+
+.footer-columns {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 30px;
+text-align: left;
+gap: 20px;
+}
+
+.column {
+flex: 1 1 250px;
+margin: 10px;
+}
+
+.column h3 {
+margin-bottom: 12px;
+font-size: 16px;
+color: #fff;
+}
+
+.column ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.column ul li {
+margin: 6px 0;
+}
+
+.column ul li a {
+color: #fff;
+font-size: 14px;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.column ul li a:hover {
+color: #B1C9FF;
+}
+
+.column p,
+.column address {
+font-size: 14px;
+color: #ccc;
+line-height: 1.5;
+}
+
+.footer-container p:last-child {
+margin-top: 40px;
+font-size: 13px;
+color: #eee;
+text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+.footer-columns {
+  flex-direction: column;
+  text-align: center;
+}
+
+.column {
+  margin: 20px 0;
+}
+
+.column ul li a {
+  display: inline-block;
+}
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F2F7FC;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+

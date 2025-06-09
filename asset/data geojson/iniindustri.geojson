@@ -1,0 +1,621 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3106055, -6.3816956]
+        },
+        "properties": {
+          "Industri ": "PT.Honda Prospect Motor (HPM)",
+          "Alamat": "J8P8+86P Kawasan Industri Mitra Karawang, Jl. Mitra Utara II, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3106055, -6.3816956]
+        },
+        "properties": {
+          "Industri ": "PT Mitrametal Perkasa",
+          "Alamat": "Kawasan Industri Mitra Karawang, JL. Mitra Timur I, Blok C5, Kecamatan Ciampel Kabupaten Karawang, Desa, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3135243, -6.3785058]
+        },
+        "properties": {
+          "Industri ": "PT. TT Techno Park Indonesia",
+          "Alamat": "Kawasan Industri Mitra Karawang, Jl. Mitra Raya II No.6 Blok E1, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3136818, -6.373587]
+        },
+        "properties": {
+          "Industri ": "PT Steel Pipe Industry of Indonesia (SPINDO)",
+          "Alamat": "Jl. Mitra Raya II No.F2, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3222155, -6.3608571]
+        },
+        "properties": {
+          "Industri ": "PT. Pionirbeton Industri Plant Karawang",
+          "Alamat": "Jl. Kawasan Inti Sejahtera, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3276353, -6.3740176]
+        },
+        "properties": {
+          "Industri ": "Kawasan Industri Suryacipta",
+          "Alamat": "Suryacipta City of Industry, Kutanegara, Jl. Surya Utama No.Kav. C 1, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.367945, -6.389035]
+        },
+        "properties": {
+          "Industri ": "PT. Hasil Raya Industris",
+          "Alamat": "Dsn Mangga Besar 2, Desa Walahar, Kec Klari Kawasan ABC, Karawang Timur, Walahar, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.269595, -6.3684762]
+        },
+        "properties": {
+          "Industri ": "Karawang International Industrial City",
+          "Alamat": "Margakaya, Kec. Telukjambe Bar., Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2370874, -6.4028253]
+        },
+        "properties": {
+          "Industri ": "PT HLI Green Power",
+          "Alamat": "Wanajaya, Kec. Telukjambe Bar., Karawang, Jawa Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3196805, -6.3647771]
+        },
+        "properties": {
+          "Industri ": "PT. Sadikun Niagamas Raya",
+          "Alamat": "Kawasan indrustri, Jl. Mitra Karawang Jl. Mitra Utara II, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2987987, -6.3657917]
+        },
+        "properties": {
+          "Industri ": "PT. Sunchirin Industries Indonesia",
+          "Alamat": "Jl. Harapan II, Sirnabaya, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.4267813, -6.4284928]
+        },
+        "properties": {
+          "Industri ": "PT. Indotaisei Indah Development",
+          "Alamat": "Kawasan Industri Indotaisei Sector 1-A Blok B, Jl. Kw. Industri, Kalihurip, Kec. Cikampek, Karawang, Jawa Barat 41373"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2852962, -6.3585161]
+        },
+        "properties": {
+          "Industri ": "PT Koyama Indonesia",
+          "Alamat": "’41361 Jawa Barat, Lot Q-1A3, Kawasan Industri KIIC"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2852962, -6.3585161]
+        },
+        "properties": {
+          "Industri ": "PT. Tsuzuki Indonesia Manufacturing",
+          "Alamat": "Jl. Harapan Raya Lot JJ Blok 3B Kawasan Industri KIIC, Sirnabaya, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2658669, -6.3647322]
+        },
+        "properties": {
+          "Industri ": "PT Softex Indonesia",
+          "Alamat": "J6JM+QW4, Jalan Trans Heksa, Kawasan Industri KJIE, Wanasari, Kec. Telukjambe Bar., Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2852962, -6.3585161]
+        },
+        "properties": {
+          "Industri ": "PT. Ogawa Indonesia",
+          "Alamat": "Kawasan Industri KIIC Lot. A- 8A KM. 47 Jl. Permata Raya Telukjambe, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3106055, -6.3816956]
+        },
+        "properties": {
+          "Industri ": "PT. Toyota Motor Manufacturing Indonesia",
+          "Alamat": "Kawasan Industri KIIC Lot DD 1, Jl. Permata Raya, Karawang Barat, Sirnabaya, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3106055, -6.3816956]
+        },
+        "properties": {
+          "Industri ": "PT Autoplastik Indonesia",
+          "Alamat": "Kawasan Industri Mitra Karawang, Jl. Mitra Brt. I b Mulya Blok G, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2852962, -6.3585161]
+        },
+        "properties": {
+          "Industri ": "PT. Shin-Etsu Polymer Indonesia",
+          "Alamat": "Kawasan Industri KIIC Jl. Permata Raya Lot D, RW.3, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2737707, -6.3618751]
+        },
+        "properties": {
+          "Industri ": "PT. DNP Indonesia",
+          "Alamat": "J7QF+WFG, Jl. Maligi Raya, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2727041, -6.3663546]
+        },
+        "properties": {
+          "Industri ": "PT. AT Indonesia (Warehouse & Training Center)",
+          "Alamat": "J7QF+2J8, Jl. Maligi Raya, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2742756, -6.3597017]
+        },
+        "properties": {
+          "Industri ": "PT. Ihara Manufacturing Indonesia",
+          "Alamat": "Jl. Maligi Raya Kawasan Industri KIIC Lot G-1A & B, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.280313, -6.3609378]
+        },
+        "properties": {
+          "Industri ": "PT. NKS Filter Indonesia",
+          "Alamat": "Kawasan Industri KIIC, Jl. Maligi II No.1C Lot C, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2742756, -6.3597017]
+        },
+        "properties": {
+          "Industri ": "PT. Dai Ichi Kimia Raya",
+          "Alamat": "Kawasan Industri KIIC Lot G No.2, Jalan Maligi 2, Sukaluyu, Karawang Barat, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3499965, -6.358316]
+        },
+        "properties": {
+          "Industri ": "PT Samator Gas Industri Karawang",
+          "Alamat": "Jalan Raya Klari Gintungkerta RT. 025/06, Klari, Gintungkerta, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.4306875, -6.4146875]
+        },
+        "properties": {
+          "Industri ": "PT Kawasan Industri Kujang Cikampek",
+          "Alamat": "Jl. Kw. Industri No.Kujang, Kalihurip, Kec. Cikampek, Karawang, Jawa Barat 41373"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3435543, -6.3427338]
+        },
+        "properties": {
+          "Industri ": "PT Timuraya Tunggal",
+          "Alamat": "no. 205 Desa Anggadita Kec, Jl. Raya Klari, Anggadita, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3523607, -6.3809612]
+        },
+        "properties": {
+          "Industri ": "PT. Asia Pacific Fibers Tbk. (Karawang Plant)",
+          "Alamat": "Desa Kiara Payung, Klari, Kiarapayung, Kec. Klari, Karawang, Jawa Barat 41300"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3172418, -6.369154]
+        },
+        "properties": {
+          "Industri ": "PT Nikawatex",
+          "Alamat": "Kawasan Industri Mitrakarawang, Jl. Mitra Raya I, Ciampel, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3427652, -6.3571787]
+        },
+        "properties": {
+          "Industri ": "PT Pralon Karawang",
+          "Alamat": "Dusun Gintung Kebon RT. 12 & 13, Karawang, Gintungkerta, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3247284, -6.3586611]
+        },
+        "properties": {
+          "Industri ": "PT. Trigoldenstar Wisesa",
+          "Alamat": "J8XQ+FWF, Jalan Rumambe I Anggadita Klari, Anggadita, Kec. Karawang Tim., Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3106055, -6.3816956]
+        },
+        "properties": {
+          "Industri ": "PT Nichirin Indonesia",
+          "Alamat": "Kawasan Industri Mitrakarawang, Jl. Mitra Timur I Blok C6, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.342054, -6.353671]
+        },
+        "properties": {
+          "Industri ": "PT. Pokta Terbit Industri",
+          "Alamat": "Dusun Dukuh Baru, RT 029/07, Anggadita, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2685715, -6.3779787]
+        },
+        "properties": {
+          "Industri ": "PT. Fuji Seat Indonesia",
+          "Alamat": "Kawasan Industri KIIC, Jl. Maligi VIII Lot S-6, Margakaya, Kec. Telukjambe Bar., Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2742756, -6.3597017]
+        },
+        "properties": {
+          "Industri ": "PT. NBC Indonesia",
+          "Alamat": "Jl Maligi I Lot A9-10 Kawasan Industri KIIC, Sukaluyu, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3070995, -6.3799018]
+        },
+        "properties": {
+          "Industri ": "PT. Kary Indomas Elok",
+          "Alamat": "Kawasan Industri Mitra Karawang, Jl. Mitra Sel. II No.Kav.89, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.336722, -6.351261]
+        },
+        "properties": {
+          "Industri ": "PT Mutubeton Pratamamix",
+          "Alamat": "Jl. Industri Anggadita, Anggadita, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3472409, -6.367985]
+        },
+        "properties": {
+          "Industri ": "PT. Bintang Kreasi Aroma",
+          "Alamat": "Zona Industri, Gintung kolot, Gintungkerta, Karawang Timur, Karawang, West Java 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3276353, -6.3740176]
+        },
+        "properties": {
+          "Industri ": "PT.DONG IL CASTING",
+          "Alamat": "Kawasan Industri Surya Cipta, Kutamekar, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2941655, -6.3669985]
+        },
+        "properties": {
+          "Industri ": "PT. MetalArt Astra Indonesia",
+          "Alamat": "Kawasan Industri KIIC, Jl. Harapan III Lot JJ-2A, Sirnabaya, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.327196, -6.3845879]
+        },
+        "properties": {
+          "Industri ": "PT. Murotech Indonesia",
+          "Alamat": "Jl. Surya Lestari, Kutamekar, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2984259, -6.3859454]
+        },
+        "properties": {
+          "Industri ": "PT. Aisin Indonesia Automotive",
+          "Alamat": "Kawasan Industri KIIC Lot LL No. 9 - 10, Jl. Harapan 8, Kel. Parung Mulia, Kec. Ciampel, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3276353, -6.3740176]
+        },
+        "properties": {
+          "Industri ": "PT. PRISCOLIN KARAWANG (Primus Sanus Cooking Oil Industrial)",
+          "Alamat": "Kawasan Industri Suryacipta, Jl. Surya Utama, Kutamekar, Ciampel, Karawang, West Java 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3276353, -6.3740176]
+        },
+        "properties": {
+          "Industri ": "PT. Nipro Indonesia Jaya",
+          "Alamat": "Kawasan Industri Surya Cipta, Jl. Surya Utama No.23 & 24 Kav. I-22B, Kutanegara, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2727311, -6.2766665]
+        },
+        "properties": {
+          "Industri ": "PT. Adhigana Mitra Industri",
+          "Alamat": "Kp. Pasirjengkol No.1, RT.007/RW.013, Tanjungpura, Kec. Karawang Bar., Karawang, Jawa Barat 41316"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3276353, -6.3740176]
+        },
+        "properties": {
+          "Industri ": "PT. GS BATTERY PLANT KARAWANG",
+          "Alamat": "Kawasan Industri Suryacipta, Jl. Surya Utama No.Kav. I.3, Kutamekar, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2358409, -6.3801909]
+        },
+        "properties": {
+          "Industri ": "Artha Industrial Hill",
+          "Alamat": "Jalan Trans Heksa, Wanajaya, Telukjambe Barat, Karawang, West Java 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3393415, -6.4179242]
+        },
+        "properties": {
+          "Industri ": "PT. DASA WINDU AGUNG - PLANT KARAWANG",
+          "Alamat": "Kawasan Industri SURYA CIPTA, Jl. Surya Madya VI No.Kav. 1-60, Kutanegara, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3526094, -6.4213875]
+        },
+        "properties": {
+          "Industri ": "PT INTI PANTJA PRESS INDUSTRI ( Plant Karawang )",
+          "Alamat": "H9H3+C2X, Kutanegara, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2685715, -6.3779787]
+        },
+        "properties": {
+          "Industri ": "PT. Zeno Tech Indonesia",
+          "Alamat": "Jl. Maligi VIII Kawasan Industri KIIC Lot R No.6D, Margakaya, Kec. Telukjambe Bar., Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.336815, -6.4148783]
+        },
+        "properties": {
+          "Industri ": "PT Fuji Seat Indonesia Plant Surya Cipta 2",
+          "Alamat": "Jalan Surya Pratama Kav 1-63 Kawasan Industri Surya Cipta, Kutanegara, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.2748323, -6.3767529]
+        },
+        "properties": {
+          "Industri ": "PT. MIYUKI INDONESIA",
+          "Alamat": "KAWASAN INDUSTRI KIIC KARAWANG, Jl. Maligi VII No.1B LOT.Q, Puseurjaya, Telukjambe Timur, Karawang, Jawa Barat 41361"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3145253, -6.3193633]
+        },
+        "properties": {
+          "Industri ": "PT. Pindo Deli Pulp And Paper Mills 1",
+          "Alamat": "41313 Jalan Wirasaba Blok Sawanga No.88, Adiarsa Tim., Kec. Karawang Tim., Karawang, Jawa Barat 41311"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.346448, -6.3607281]
+        },
+        "properties": {
+          "Industri ": "PT Harmonics Techindo Agung",
+          "Alamat": "Gintungkerta, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3116991, -6.3795603]
+        },
+        "properties": {
+          "Industri ": "PT. Shinwa Package Indonesia",
+          "Alamat": "Kawasan Industri Mitra Karawang, Jl. Mitra Raya II Blok E1, Parungmulya, Kec. Ciampel, Karawang, Jawa Barat 41363"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.3472409, -6.367985]
+        },
+        "properties": {
+          "Industri ": "PT Chang Shin Indonesia",
+          "Alamat": "Jl. Dusun Gintungkolot, Gintungkerta, Kec. Klari, Karawang, Jawa Barat 41371"
+        }
+      }
+    ]
+  }
