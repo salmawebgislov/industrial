@@ -194,7 +194,7 @@ fetch('asset/data geojson/jarak line.geojson')
     var JarakLine = L.geoJSON(data, {
         pane: 'garisBawah',
         style: {
-            color: "rgb(255, 0, 0)",
+            color: "rgb(260, 1, 0)",
             weight: 3,
             opacity: 1,
             dashArray: '2, 5'
